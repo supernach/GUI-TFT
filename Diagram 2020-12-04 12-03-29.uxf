@@ -1,0 +1,25 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>90</x><y>40</y><w>210</w><h>190</h></coordinates><panel_attributes>Gui
+--
+-Ventanas: Ventana
+
+--
+/+MostrarVentana(Ventana)/
+--
+Responsabilidades</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>340</y><w>210</w><h>190</h></coordinates><panel_attributes>Ventana
+--
+-Widgets: Widget
+-Borde: int16_t
+
+--
+/+AgregarWidget(Widget)/
+/+QuitarWidget(Widget)/
+--
+Responsabilidades</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>620</y><w>210</w><h>190</h></coordinates><panel_attributes>Widget
+--
+-Widgets: Widget
+
+--
+/+AgregarWidget(Widget)/
+/+QuitarWidget(Widget)/
+--
+Responsabilidades</panel_attributes><additional_attributes></additional_attributes></element></diagram>
