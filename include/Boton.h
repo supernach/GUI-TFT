@@ -13,9 +13,6 @@
 class Boton : public IBoton {
 
   public:
-    //BtnOriginal(TFT_eSPI* tft);
-    //BtnOriginal(TFT_eSPI* tft, Color fondo, Color borde, Coordenada posicion, Coordenada tamano, Texto texto, Tactil *subject);
-    //BtnOriginal(TftPrinter *ptrTft, TFT_eSPI* tft, Color fondo, Color borde, Coordenada posicion, Coordenada tamano, Texto texto, Tactil *subject);
     Boton(TftPrinter *ptrTft, Color fondo, Color borde, Coordenada posicion, Coordenada tamano, Texto texto, Tactil *subject);
     ~Boton();
 
@@ -29,7 +26,6 @@ class Boton : public IBoton {
     void Desubscribirse(Tactil *subject);
 
   private:
-    //TFT_eSPI *tft;
     TftPrinter *ptrTFT;
 
     Rectangulo forma;
